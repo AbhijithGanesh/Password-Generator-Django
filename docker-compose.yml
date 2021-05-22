@@ -1,0 +1,25 @@
+version: '3.9'
+
+services:
+  nginx:
+    build: ./Django_Annual/nginx
+    ports:
+      - 8000:80
+    volumes:
+      - static_volume:/home/app/microservice/static
+    depends_on:
+      - web
+    restart: "on-failure"
+  web:
+    build: . #build the image for the web service from the dockerfile in parent directory
+    command: sh -c "gunicorn Django_Annual.wsgi:app && python manage.py collectstatic "
+
+    volumes:
+      - .:/microservice:rw # map data and files from parent directory in host to microservice directory in docker containe
+      - static_volume:/home/app/microservice/static
+    env_file:
+      - .env
+    image: Django_Annual
+    
+volumes:
+  static_volume:

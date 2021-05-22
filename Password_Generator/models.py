@@ -12,7 +12,7 @@ if len(_keys) == len(_value):
         _choices.append(tuple(a))
 class Registration(models.Model):
     Name = models.CharField(max_length = 300)
-    Email = models.EmailField(max_length = 300)
+    Email = models.EmailField(max_length = 300, primary_key=True)
     Contact_Number = models.IntegerField()
     Organization = models.CharField(max_length = 300)
     Country = models.CharField(max_length = 75, choices = _choices )

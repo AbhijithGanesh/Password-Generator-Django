@@ -3,6 +3,7 @@ import os
 CURRENT_PATH = os.path.abspath(os.path.dirname(__file__))
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SECRET_KEY = os.environ['SECRET_KEY']
+SECRET_KEY = 'django-insecure-azsia=k6vdzkq@hq(!3r&64dy0km0u^'
 DEBUG = False
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', '.herokuapp.com']
 INSTALLED_APPS = [
@@ -44,7 +45,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'Django_Annual.wsgi.application'
+WSGI_APPLICATION = 'Django_Annual.wsgi.app'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
