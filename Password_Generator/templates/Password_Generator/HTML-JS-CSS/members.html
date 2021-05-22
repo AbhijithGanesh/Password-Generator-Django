@@ -1,0 +1,107 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Team Unhackables</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" />
+    <link href='{%static "Password_Generator/css/bootstrap.min.css" %}' rel="stylesheet" />
+    <link href='{%static "Password_Generator/fontawesome/css/all.min.css" %}' rel="stylesheet"  />
+    <link href='{%static "Password_Generator/css/templatemo-diagoona.css" %}' rel="stylesheet" />
+
+</head>
+
+<body>
+    <div class="tm-container">
+        <div>
+            <div class="tm-row pt-4">
+                <div class="tm-col-left">
+                    <div class="tm-site-header media">
+                        <i class="fas fa-laptop fa-3x mt-1 tm-logo"></i>
+                        <div class="media-body">
+                            <h1 class="tm-sitename">Team UnHackables</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="tm-col-right">
+                    <nav class="navbar navbar-expand-lg" id="tm-main-nav">
+                        <button class="navbar-toggler toggler-example mr-0 ml-auto" type="button"
+                            data-toggle="collapse" data-target="#navbar-nav"
+                            aria-controls="navbar-nav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span><i class="fas fa-bars"></i></span>
+                        </button>
+                        <div class="collapse navbar-collapse tm-nav" id="navbar-nav">
+                            <ul class="navbar-nav text-uppercase">
+                                <li class="nav-item active">
+                                    <a class="nav-link tm-nav-link" href="about.html">ABOUT THE PROJECT <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link tm-nav-link" href="members.html">Members</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link tm-nav-link" href="register.html">Register</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            
+            <div class="tm-row">
+                <div class="tm-col-left"></div>
+                <main class="tm-col-right">
+                    <section class="tm-content">
+                        <div class="media my-3 mb-5 tm-service-media tm-service-media-img-l">
+                            <img src='{% static "Password_Generator/img/m-1.jpg" %}' alt="Abhijith G" class="tm-service-img" width = 25%>
+                            <div class="media-body tm-service-text">
+                                <h2 class="mb-4 tm-content-title">Abhijith G</h2>
+                                <p>Abhjith G is a student of class 12 C, he effectively contributed to the server side development of this project and offered valuable suggestions to the password development.</p>
+                            </div> 
+                        </div>
+                        <div class="media my-3 mb-5 tm-service-media">
+                            <div class="media-body tm-service-text">
+                                <h2 class="mb-4 tm-content-title">Snehit Kalluru</h2>
+                                <p>Snehit K is a student of class 12 B, he effectively contributed to the Template(s) of the Django-MVT architecture and the front-end of this project.</p>
+                            </div> 
+                            <img src='{%static "Password_Generator/img/m-2.jpeg"%}' alt="Snehit K" class="tm-service-img-r" width = 25% height = 25%>
+                        </div>
+                        <div class="media my-3 tm-service-media tm-service-media-img-l">
+                            <img src='{%static "Password_Generator/img/m-3.jpeg"%}' alt="Mani" class="tm-service-img" width = 30%    >
+                            <div class="media-body tm-service-text">
+                                <h2 class="mb-4 tm-content-title">Manikrishneshwar S</h2>
+                                <p>Manikrishneshwar S is a student of class 12 C, he effectively developed the ideas for the password generator and worked on the ideas of generating a password.</p>
+                                <p></p>
+                            </div> 
+                        </div>                      
+                    </section>
+                </main>
+            </div>
+        </div>        
+
+<div class="tm-row">
+            <div class="tm-col-left text-center">
+            </div>        
+            <div class="tm-col-right tm-col-footer">
+                <footer class="tm-site-footer text-right">
+                    <p class="mb-0">Team UnHackables
+                    
+                    | Abhijith G, Snehit K and Manikrishneshwar S</a></p>
+                </footer>
+            </div>   
+        </div>
+        <div class="tm-bg">
+            <div class="tm-bg-left"></div>
+            <div class="tm-bg-right"></div>
+        </div>
+    </div>
+    
+   <script src='{% static "Password_Generator/js/jquery-3.4.1.min.js"%}'></script>
+    <script src='{% static "Password_Generator/js/bootstrap.min.js" %}'></script>
+    <script src='{% static "Password_Generator/js/jquery.backstretch.min.js"%}'></script>
+    <script src='{% static "Password_Generator/js/templatemo-script.js"%}'></script>
+</body>
+
+</html>
