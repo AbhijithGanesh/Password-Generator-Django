@@ -53,7 +53,7 @@ header, nav, section, article, aside, footer, hgroup {
 html, body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  background-color: #FA9836;
+  background-color: white;
   font-size: 16px;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
@@ -86,18 +86,18 @@ global styles
 */
 html,
 body {
-  background: #FA9836;
+  background: white;
   font-family: 'Poppins', sans-serif;
 }
 
 ::selction {
   background: #EA6400;
-  color: #FA9836;
+  color: white;
 }
 
 ::-moz-selection {
   background: #EA6400;
-  color: #FA9836;
+  color: white;
 }
 
 @media (max-width: 991px) {
@@ -142,11 +142,11 @@ body {
 }
 
 .dark-bg h2 {
-  color: #FA9836;
+  color: white;
 }
 
 .dark-bg p {
-  color: #FA9836;
+  color: white;
 }
 
 .main-button a {
@@ -154,7 +154,7 @@ body {
   font-size: 15px;
   padding: 12px 20px;
   background-color: #EA6400;
-  color: #FA9836;
+  color: white;
   text-align: center;
   font-weight: 400;
   text-transform: uppercase;
@@ -188,11 +188,11 @@ header
 }
 
 .background-header .main-nav .nav li:last-child a {
-  color: #FA9836 !important;
+  color: white !important;
 }
 
 .background-header .main-nav .nav li:last-child a:hover {
-  color: #FA9836!important;
+  color: white!important;
 }
 
 .background-header .main-nav .nav li:hover a {
@@ -225,7 +225,7 @@ header
 
 .header-area .main-nav .logo {
   line-height: 80px;
-  color: #FA9836;
+  color: white;
   font-size: 32px;
   font-weight: 800;
   text-transform: uppercase;
@@ -278,7 +278,7 @@ header
 }
 
 .header-area .main-nav .nav li a {
-  color: #FA9836;
+  color: white;
 }
 
 .header-area .main-nav .nav li:last-child a {
@@ -286,7 +286,7 @@ header
   font-size: 13px;
   padding: 11px 17px;
   background-color: #EA6400;
-  color: #FA9836;
+  color: white;
   text-align: center;
   font-weight: 400;
   letter-spacing: 0px;
@@ -490,7 +490,7 @@ header
   .header-area .main-nav .nav li:last-child {
     width: 100%;
     background-color: #EA6400;
-    color: #FA9836;
+    color: white;
   }
   .header-area .main-nav .nav li:last-child a {
     background-color: #EA6400!important;
@@ -498,14 +498,14 @@ header
   .header-area .main-nav .nav li:last-child a:hover,
   .header-area .main-nav .nav li:last-child:hover a {
     background-color: #EA6400!important;
-    color: #FA9836!important;
+    color: white!important;
   }
   .header-area.header-sticky .nav {
     margin-top: 80px !important;
   }
   .header-area .main-nav .nav li {
     width: 100%;
-    background: #FA9836;
+    background: white;
     border-bottom: 1px solid #eee;
     padding-left: 0px !important;
     padding-right: 0px !important;
@@ -519,7 +519,7 @@ header
     color: #232d39 !important;
   }
   .header-area .main-nav .nav li:last-child a {
-    color: #FA9836!important;
+    color: white!important;
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
@@ -622,7 +622,7 @@ banner
   font-size: 18px;
   text-transform: uppercase;
   font-weight: 800;
-  color: #FA9836;
+  color: white;
   letter-spacing: 0.5px;
 }
 
@@ -632,7 +632,7 @@ banner
   font-size: 84px;
   text-transform: uppercase;
   font-weight: 800;
-  color: #FA9836;
+  color: white;
   letter-spacing: 1px;
 }
 
@@ -705,7 +705,7 @@ subscribe
   font-size: 36px;
   text-transform: uppercase;
   font-weight: 800;
-  color: #FA9836;
+  color: white;
   letter-spacing: 1px;
 }
 
@@ -716,7 +716,7 @@ subscribe
 
 .cta-content p {
   font-size: 16px;
-  color: #FA9836;
+  color: white;
   margin: 15px 0px 25px 0px;
 }
 
@@ -749,7 +749,7 @@ Our Classes
   width: 100%;
   padding: 30px 30px;
   display: inline-block;
-  background-color: #FA9836;
+  background-color: white;
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
   border-radius: 5px;
   font-size: 19px;
@@ -765,7 +765,7 @@ Our Classes
   border-radius: 5px;
   display: inline-block;
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
-  color: #FA9836;
+  color: white;
   font-size: 19px;
   letter-spacing: 0.5px;
   font-weight: 600;
@@ -833,24 +833,24 @@ schedule
 #schedule table {
   width: 100%;
   text-align: center;
-  border: 1px solid #FA9836;
+  border: 1px solid white;
 }
 
 #schedule table tbody {
-  border-top: 1px solid #FA9836; 
+  border-top: 1px solid white; 
 }
 
 #schedule table tbody tr {
-  border-bottom: 1px solid #FA9836;
+  border-bottom: 1px solid white;
 }
 
 #schedule table tbody tr td {
-  border-right: 1px solid #FA9836;
+  border-right: 1px solid white;
   height: 100px;
 }
 
 #schedule table tr td {
-  color: #FA9836;
+  color: white;
   font-size: 13px;
   text-transform: capitalize;
   font-weight: 500;
@@ -882,7 +882,7 @@ schedule
   margin-right: 10px;
   font-size: 15px;
   font-weight: 500;
-  color: #FA9836;
+  color: white;
   text-transform: capitalize;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -893,7 +893,7 @@ schedule
 #schedule .filters ul li:after {
   content: "/";
   margin-left: 10px;
-  color: #FA9836;
+  color: white;
 }
 #schedule .filters ul li:last-child {
   margin-right: 0px;
@@ -927,7 +927,7 @@ trainers
 */
 
 #trainers .trainer-item {
-  background-color: #FA9836;
+  background-color: white;
   border-radius: 5px;
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
   padding: 40px;
@@ -1001,7 +1001,7 @@ contact
 }
 
 #contact-us .contact-form #contact {
-  background-color: #FA9836;
+  background-color: white;
   padding: 40px;
   border-radius: 5px;
 }
@@ -1011,7 +1011,7 @@ contact
   color:#ffd652;
   font-size: 13px;
   border: 1px solid #ddd;
-  background-color: #FA9836;
+  background-color: white;
   width: 100%;
   height: 40px;
   outline: none;
@@ -1045,7 +1045,7 @@ contact
   font-size: 13px;
   padding: 11px 17px;
   background-color: #EA6400;
-  color: #FA9836;
+  color: white;
   text-align: center;
   font-weight: 400;
   text-transform: uppercase;
@@ -1161,7 +1161,7 @@ preloader
     height: 16px;
     top: 12px;
     left: 15px;
-    background: #FA9836;
+    background: white;
     border-radius: 50%;
     -webkit-transform: translateX(0);
     transform: translateX(0);
@@ -1184,7 +1184,7 @@ preloader
     width: 16px;
     height: 16px;
     margin-left: 16px;
-    background: #FA9836;
+    background: white;
     border-radius: 50%;
 }
 
