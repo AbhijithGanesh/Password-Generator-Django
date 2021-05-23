@@ -215,12 +215,12 @@ header
   -moz-transition: all .5s ease 0s;
   -o-transition: all .5s ease 0s;
   transition: all .5s ease 0s;
-  background: #005bf6;
+  background: #38009e;
 }
 
 .header-area .main-nav {
   min-height: 80px;
-  background: #005bf6;
+  background: #38009e;
 }
 
 .header-area .main-nav .logo {
@@ -240,7 +240,7 @@ header
   font-style: normal;
   color: #EA6400;
   font-weight: 900;
-  background-color:#005bf6;
+  background-color:#38009e;
 }
 
 .header-area .main-nav .nav {
