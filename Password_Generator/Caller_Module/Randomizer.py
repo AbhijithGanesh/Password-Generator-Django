@@ -1,6 +1,7 @@
-import random
+
 def convertor(choice):
-    b = random.choice(choice)
+    import secrets
+    b = secrets.choice(choice)
     return(b)
 
 
