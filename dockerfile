@@ -1,5 +1,4 @@
 FROM python:3.9.5
-#Py: 3.9.5 was the most recent version
 
 ENV MICRO_SERVICE=/home/app/microservice
 # set work directory
