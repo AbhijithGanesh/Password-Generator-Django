@@ -5,6 +5,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SECRET_KEY = os.environ['SECRET_KEY']
 SECRET_KEY = 'django-insecure-azsia=k6vdzkq@hq(!3r&64dy0km0u^'
 DEBUG = False
+
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', '.herokuapp.com']
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -66,10 +67,4 @@ USE_L10N = True
 USE_TZ = True
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATIC_URL = '/static/'
-STATICFILES_DIRS = (
-                    os.path.join(CURRENT_PATH, 'static'),
-)
-
-PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
-
 
